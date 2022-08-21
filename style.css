@@ -183,8 +183,13 @@ footer {
     background-color: #26115f;
   }
 
+  input {
+    margin-bottom: 60px;
+  }
+
   .card {
-    margin-bottom: 100px;
+    scale: 0.75;
+    height: 170px;
   }
 
   .container-cards {
