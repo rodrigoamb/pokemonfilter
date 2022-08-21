@@ -187,8 +187,8 @@ footer {
   }
 
   .card {
-    transform: scale(0.6);
-    margin-bottom: -80px;
+    transform: scale(0.75);
+    margin-bottom: -40px;
   }
 
   .container-cards {
