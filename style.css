@@ -51,6 +51,7 @@ input {
   width: 75%;
   padding-bottom: 100px;
   display: grid;
+  justify-items: center;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 100px;
@@ -167,8 +168,33 @@ footer {
   }
 
   .container-cards {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    grid-column-gap: 0px;
+    grid-column-gap: 100px;
+  }
+}
+
+@media (max-width: 980px) {
+  body {
+    background-color: #26115f;
+  }
+
+  .container {
+    background-color: #26115f;
+  }
+
+  .card {
+    margin-bottom: 100px;
+  }
+
+  .container-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
+  footer {
+    font-size: 1rem;
   }
 }
